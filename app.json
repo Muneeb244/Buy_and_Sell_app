@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "FirstApp",
+    "slug": "FirstApp",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon-main.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#e63c4b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.Memer.firstapp",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ea9c7b4-b328-4853-b310-085fc25ade4e"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+Navigations
+
+const StackNavigator = () => {
+  return (
+    <Stack.Navigator initialRouteName="Tweet" screenOptions={{
+      headerStyle: { backgroundColor: 'dodgerblue'},
+      headerTintColor: 'white',
+      // headerShadowVisible: false,
+    }}>
+      <Stack.Screen name="Tweet" component={Tweet} />
+      <Stack.Screen
+        name="TweetDetails"
+        component={TweetDetails}
+        options={{
+          
+        }}
+      />
+    </Stack.Navigator>
+  )
+}
+
+
+
+
+
+      <Tab.Navigator
+        screenOptions={{
+          tabBarActiveBackgroundColor: 'dodgerblue',
+          tabBarActiveTintColor: 'white',
+          tabBarInactiveBackgroundColor: '#eee',
+          // headerShown: false,
+        }}
+      >
+        <Tab.Screen 
+        options={{
+          tabBarIcon: ({ size, color }) => <MaterialCommunityIcons name="home" size={size} color={color}/>
+        }}
+        name="Feed" component={StackNavigator}/>
+        <Tab.Screen name="Account" component={Account}/>
+      </Tab.Navigator>
