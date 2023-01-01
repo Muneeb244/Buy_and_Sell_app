@@ -7,6 +7,6 @@ This app also includes a login and sign up feature, ensuring that users can acce
 
 **************************************
 
-Make surer to start the server given in the backend zip file by using command "node index.js".
+Make sure to start the server given in the backend zip file by using command "node index.js".
 
 Also change ip address in the backend/congif/development.json file and client file in the project with the ip address of your system because local system is used as server to fetch data.
